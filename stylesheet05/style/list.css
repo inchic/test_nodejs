@@ -1,0 +1,12 @@
+.ul{
+    list-style-type: none;
+    /* border: 1px solid black; */
+    padding: 1px;
+    /* 사이드메뉴를 좌측정렬 */
+}
+
+/* .li{
+    border: 5px solid blue;
+} */
+
+/* ul에 padding을 작게 주면, 좌측으로 당겨진다*/

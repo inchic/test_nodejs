@@ -7,7 +7,10 @@ const port = 3000
 
 /*스태틱선언 public폴더 안에는 전부다 정적인 파일을 넣어줄거야 란 뜻*/
 app.use(express.static('public'))
-app.use(express.static('public'))
+// 정적으로 지정해준곳은 로컬-루트폴더가 된다 **이부분 굉장히 중요**
+
+app.use(express.static('stylesheet05/style'))
+
 
 
 const path = require('path');
@@ -37,7 +40,9 @@ router.get('/main', function (req, res) {
 router.get('/stylesheetNo', function (req, res) {
     res.sendFile(path.join(__dirname + '/stylesheet05/stylesheetNo.html'));
 });
-
+router.get('/stylesheet01', function (req, res) {
+    res.sendFile(path.join(__dirname + '/stylesheet05/stylesheet01.html'));
+});
 
 
 

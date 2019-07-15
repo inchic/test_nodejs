@@ -1,0 +1,49 @@
+.header01{
+    background-color: green;
+    color: white;
+    height: 75px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+}
+.header01 h1{
+    /* border: 1px solid black; */
+    margin: 0px 0px 0px 0px;
+    padding: 5px;
+}
+.header01 p{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+}
+.header01 a:link{
+    color: black;
+}
+.header01 a:visited{
+    color: black;
+}
+
+/* stylesheet01의 헤더 */
+/* ---------------------------------------------------------- */
+
+
+
+.header03{
+    height: 120px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px;
+    border: 1px solid black;
+}
+.header03 h1{
+    color: green;
+    
+}
+.header03 p{
+    color: black;
+}
+.header03 a:link{
+    color: black;
+}
+.header03 a:visited{
+    color: black;
+}

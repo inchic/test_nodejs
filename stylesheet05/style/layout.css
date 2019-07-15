@@ -1,0 +1,31 @@
+.column01 {
+    float: left;
+    /* 모든 column에 float left 들어가는거 */
+
+    padding: 1px;
+    border: 1px solid red;
+    margin: 0px;
+}
+
+.column01.side {
+    width: 21%;
+    /* float: left; */
+}
+
+.column01.side.right {
+    float: right;
+    padding: 0px 0px 0px 20px;
+}
+
+.column01.middle {
+    width: 50%;
+    /* float: left; */
+    margin: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 0px;
+    
+}
+
+.row01 {
+    display: inline;
+    
+}
